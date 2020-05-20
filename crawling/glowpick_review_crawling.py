@@ -70,6 +70,9 @@ def crawling():
             soup = BeautifulSoup(req, 'html.parser')
             user_gender = soup.select('.txt .icon-sprite')
             user_like = soup.select('.label .icon-sprite')
+           
+	    #카테고리
+            category = driver.find_element_by_css_selector('span.info__category').text
 
             #제품명
             item = driver.find_element_by_xpath('//*[@id="gp-default-main"]/section/div/ul[1]/li[2]/section[1]/h1/span').text
@@ -130,7 +133,8 @@ def crawling():
                     gender.append(user_gender1)
 
             data = pd.DataFrame({
-                            'item' : item,
+           		    'category' : category,
+	                    'item' : item,
                             'company' : company,
                             'size' : size,
                             'price' : price,
