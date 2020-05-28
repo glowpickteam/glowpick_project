@@ -1,5 +1,5 @@
 # 화장품 추천 시스템
-> '화장품 리뷰 플랫폼 '글로우픽'을 활용한 사용자 기반 화장품 추천
+> '화장품 리뷰 플랫폼 '글로우픽'을 활용한 사용자, 아이템 기반 화장품 추천 시스템 구현
 - 팀원: 양준, 오진경, 윤예슬, 이희재
 
 1. 프로젝트 내용
@@ -16,4 +16,3 @@
 - [EDA](https://github.com/glowpickteam/glowpick_project/blob/master/machinelearning/EDA.ipynb)
 - [댓글 분석](https://github.com/glowpickteam/glowpick_project/blob/master/machinelearning/glowpick_review_analysis.ipynb)
 - [사용자기반 추천 시스템](https://github.com/glowpickteam/glowpick_project/blob/master/machinelearning/user_based_recommender.ipynb)
-- [아이템 기반 추천 시스템]: 보완 
