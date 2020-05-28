@@ -4,12 +4,15 @@
 
 1. 프로젝트 내용
 
-.....
+<추가 예정>
 
 2. 결과물
 [glowpick.pdf](https://github.com/DS-Heejae/TIL/files/4694886/glowpick.pdf)
 
 3. 코드
+
+- `pip install glowpick_crawling` 를 통해 패키지를 다운받아 사용할 수 있습니다. 오류가 발생하는 경우 authorization 값을 바꾸어서 다시 시도해보세요
+
 - [제품 카테고리, 관련 키워드 크롤링](https://github.com/glowpickteam/glowpick_project/blob/master/crawling/glowpick_crawling_json.py)
 - [제품 상세 정보 크롤링](https://github.com/glowpickteam/glowpick_project/blob/master/crawling/glowpick_crawling.py)
 - [고객 리뷰 크롤링](https://github.com/glowpickteam/glowpick_project/blob/master/crawling/glowpick_review_crawling.py)
