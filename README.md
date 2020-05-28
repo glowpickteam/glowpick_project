@@ -8,3 +8,12 @@
 
 2. 결과물
 [glowpick.pdf](https://github.com/DS-Heejae/TIL/files/4694886/glowpick.pdf)
+
+3. 코드
+- [카테고리,제품,키워드 크롤링](https://github.com/glowpickteam/glowpick_project/blob/master/crawling/glowpick_crawling_json.py)
+- [제품 상세 정보 크롤링](https://github.com/glowpickteam/glowpick_project/blob/master/crawling/glowpick_crawling.py)
+- [고객 리뷰 크롤링](https://github.com/glowpickteam/glowpick_project/blob/master/crawling/glowpick_review_crawling.py)
+- [EDA](https://github.com/glowpickteam/glowpick_project/blob/master/machinelearning/EDA.ipynb)
+- [댓글 분석](https://github.com/glowpickteam/glowpick_project/blob/master/machinelearning/glowpick_review_analysis.ipynb)
+- [사용자기반 추천 시스템](https://github.com/glowpickteam/glowpick_project/blob/master/machinelearning/user_based_recommender.ipynb)
+- [아이템 기반 추천 시스템](보완 )
